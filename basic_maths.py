@@ -27,4 +27,8 @@ def divide(a, b):
     """
     return a/b
 
-
+def exponentiate(a, b):
+    """
+    calculate a to the power of b
+    """
+    return a^b
