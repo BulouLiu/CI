@@ -29,4 +29,8 @@ def test_divide():
     """
     assert(bm.divide(6, 3) == 2)
 
-
+def test_exponentiate():
+    """
+    Test exponentiate
+    """
+    assert(bm.exponentiate(6, 3) == 216)
